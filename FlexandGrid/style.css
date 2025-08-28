@@ -1,0 +1,39 @@
+/* .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    border: 1px solid red;
+    justify-content: space-around;
+} */
+
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 300px 400px 300px; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 500px 200px;
+    border: 1px solid red;
+}
+.child1{
+    border: 1px dotted blue;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.child2{
+    border: 1px dotted green;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+.child3{
+    border: 1px dotted pink;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+.child4{
+    border: 1px dotted darkorange;
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+}
